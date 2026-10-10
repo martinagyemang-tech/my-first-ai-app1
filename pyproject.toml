@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloudwithshad-first-ai-app"
+version = "0.2.0"
+description = "Level 1 guided AI application builds"
+requires-python = ">=3.12,<3.13"
+
+[tool.setuptools]
+packages = ["coursekit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

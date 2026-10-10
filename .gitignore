@@ -1,0 +1,63 @@
+# ══════════════════════════════════════════════════════════
+#  🔐 SECRETS — NEVER COMMIT THESE
+#  If your API key ends up on GitHub, anyone can spend your
+#  money. These patterns exclude matching untracked files; they cannot protect keys pasted into source code.
+# ══════════════════════════════════════════════════════════
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+*.key
+credentials.json
+
+
+# ══════════════════════════════════════════════════════════
+#  Python junk — auto-generated, no need to save
+# ══════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+
+# ══════════════════════════════════════════════════════════
+#  Virtual environments (your installed libraries)
+# ══════════════════════════════════════════════════════════
+venv/
+.venv/
+env/
+ENV/
+
+
+# ══════════════════════════════════════════════════════════
+#  Editor / OS clutter
+# ══════════════════════════════════════════════════════════
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+
+# ══════════════════════════════════════════════════════════
+#  Notebook checkpoints
+# ══════════════════════════════════════════════════════════
+.ipynb_checkpoints/
+
+
+# ══════════════════════════════════════════════════════════
+#  ⚠️  PRIVATE DATA
+#  Don't push real customer data, bank statements, etc.
+#  Sample/practice CSVs are fine — remove the line below
+#  ONLY if you're sure your data is safe to be public.
+# ══════════════════════════════════════════════════════════
+data/private/
+*_private.csv
+
+# Build/test outputs and exported student archive
+.pytest_cache/
+.coverage
+htmlcov/
+exports/

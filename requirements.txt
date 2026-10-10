@@ -1,0 +1,6 @@
+# Tested direct dependencies; use Python 3.12 for this cohort.
+streamlit==1.65.0
+openai==3.28.0
+pandas==3.0.6
+# Installs our local helpers so imports work from any lab entry point.
+-e .
